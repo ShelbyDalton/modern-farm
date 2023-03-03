@@ -34,18 +34,24 @@ h1,h2,h3,h4,h5,h6 {
     background-color: darksalmon;
 }
 
-/* Create css for the container that will will display objects in a grid format. */
-.container {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    margin-bottom: 1em;
-}
-
-/* Stylize! */
-.messages {
-    border-style: ridge;
-    border-width: 6px;
-    border-color: rgb(103, 31, 161);
-    background: rgb(127, 241, 112);
-    padding: .75em;
-}
+body {
+    background-image: url("crops.jpg");
+    background-color: #cccccc;
+    background-size: 300px 300px;
+    }
+    
+    /* Create css for the container that will will display objects in a grid format. */
+    .container {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        margin-bottom: 1em;
+    }
+    
+    /* Stylize! */
+    .messages {
+        border-style: ridge;
+        border-width: 6px;
+        border-color: rgb(127, 241, 112);
+        background: rgb(209, 112, 241);
+        padding: .75em;
+    }
