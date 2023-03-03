@@ -43,6 +43,9 @@ h1,h2,h3,h4,h5,h6 {
 
 /* Stylize! */
 .messages {
-    background: rgb(108, 243, 90);
+    border-style: ridge;
+    border-width: 6px;
+    border-color: rgb(103, 31, 161);
+    background: rgb(127, 241, 112);
     padding: .75em;
 }

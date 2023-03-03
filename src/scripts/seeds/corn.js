@@ -1,4 +1,4 @@
-// Assignment requests that corn contains two objects. 
+// Assignment requires that corn contains two objects. 
 
 export const createCorn = () => {
     const seed = [{ 

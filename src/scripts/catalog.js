@@ -1,4 +1,4 @@
-
+// Parameter needs to be variable from 'main' that holds harvest plants function. 
 export const catalog = (harvest) => {
     let htmlString = ''
     for (let oneCrop of harvest) {

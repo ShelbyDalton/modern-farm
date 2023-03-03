@@ -12,8 +12,7 @@ export const addPlant = (seed) => {  // We need to declare a function addPlant w
         growingCrops.push(seed)
     }
 }
-
-// Export usePlants for use in tractor.js. 
+// Export usePlants for use in tractor.js but I am not quite sure why....
 export const usePlants = () => {
     return growingCrops
 }
